@@ -1,0 +1,24 @@
+{
+    "name": "example/integraion",
+    "description": "Example Integration",
+    "version": "0.0.1",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ilya Plotnikov",
+            "email": "ilyaplot@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "optimize-autoloader": true,
+        "apcu-autoloader": true,
+        "fxp-asset": {
+            "enabled": false
+        }
+    }
+}
